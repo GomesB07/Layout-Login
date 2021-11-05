@@ -1,0 +1,220 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1C1C1C;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 80px auto 10px auto;
+}
+
+input {
+    display: block;
+    width: 321px;
+    height: 46px;
+    border-radius: 5px;
+    background: #343434;
+    border: none;
+}
+
+.email {
+    margin: 100px auto 0 auto;
+}
+
+.password {
+    margin: 15px auto 0 auto;
+}
+
+input::placeholder {
+    color: #D3D3D3;
+    padding-left: 5px;
+}
+
+.forgot {
+    color: #D3D3D3;
+    text-align: right;
+    margin: 25px 20px 10px 0;
+    display: block;
+    text-decoration: none;
+}
+
+button {
+    width: 250px;
+    height: 46px;
+    border-radius: 5px;
+    display: block;
+    margin: 38px auto 21px auto;
+    background: #28D8A1;
+    color: #D3D3D3;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.sign-up {
+    margin: 130px auto 0 auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+strong {
+    color: #28D8A1;
+    text-decoration: none;
+}
+
+@media (max-width: 360px) {
+    img {
+        margin: 50px auto 10px auto;
+    }
+    input {
+        width: 300px;
+    }
+    .email {
+        margin-top: 60px;
+    }
+    button {
+        margin-top: 30px;
+    }
+    .forgot {
+        margin-top: 50px;
+    }
+    .sign-up {
+        margin: 55px auto 0 auto;
+    }
+}
+
+@media (min-width: 500px) {
+    img {
+        width: 200px;
+        height: 180px;
+        margin-top: 60px
+    }
+    input {
+        width: 350px;
+        height: 55px;
+        border-radius: 10px;
+    }
+    .email {
+        margin: 50px auto 10px auto;
+    }
+    input::placeholder {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .forgot {
+        margin: 35px 70px 35px auto;
+        font-size: 15px;
+    }
+    button {
+        width: 320px;
+        height: 55px;
+        border-radius: 10px;
+    }
+    .sign-up {
+        font-size: 15px;
+        margin: 65px auto 0 auto;
+    }
+}
+
+@media (min-width: 700px) {
+    img {
+        width: 300px;
+        height: 280px;
+        margin-top: 50px;
+    }
+    input {
+        width: 420px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    input::placeholder {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .forgot {
+        margin: 50px 70px 25px auto;
+        font-size: 20px;
+    }
+    button {
+        width: 300px;
+        height: 65px;
+        border-radius: 10px;
+    }
+    .sign-up {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    img {
+        width: 500px;
+        height: 480px;
+        margin-top: 50px;
+    }
+    input {
+        width: 620px;
+        height: 95px;
+        border-radius: 10px;
+    }
+    input::placeholder {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .forgot {
+        margin: 65px 100px 25px auto;
+        font-size: 30px;
+    }
+    button {
+        width: 450px;
+        height: 85px;
+        border-radius: 10px;
+        font-size: 30px;
+        margin: 70px auto 200px auto;
+    }
+    .sign-up {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    img {
+        width: 300px;
+        height: 280px;
+        margin-top: 25px;
+    }
+    input {
+        width: 320px;
+        height: 45px;
+        border-radius: 10px;
+    }
+    input::placeholder {
+        padding-left: 15px;
+        font-size: 15px;
+    }
+    .forgot {
+        margin: 50px 500px 25px auto;
+        font-size: 15px;
+    }
+    button {
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin: 50px auto 85px auto;
+    }
+    .sign-up {
+        font-size: 15px;
+    }
+}
